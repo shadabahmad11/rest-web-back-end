@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: REST-WEB-APP
+  mvc:    pathmatch:      matching-strategy: ant-path-matcher
+  datasource:
+    url: jdbc:h2:mem:sujit
+  h2:
+    console:
+      enabled: true
+      
+server:
+  port: 8081
+  
+rest-web:
+  hotels:
+    url: https://rest.reserve-online.net
+    basicUserName: tripfactory23623
+    basicPass: 920A445CBBD0F1506960B55C2C3861B3EF8CEA80
